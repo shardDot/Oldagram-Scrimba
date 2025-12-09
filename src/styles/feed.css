@@ -1,3 +1,32 @@
 .feed {
     width: 375px;
 }
+
+.card {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.203);
+    padding-bottom: 20px;
+}
+
+.card-nav {
+    display: flex;
+    gap: 7px;
+    padding-block: 10px;
+}
+
+#post {
+    width: 100%;
+}
+
+.card-footer {
+
+    .interact {
+        display: flex;
+        gap: 20px;
+    }
+
+    .interact img {
+        width: 32px;
+        height: 32px;;
+        margin-top: 20px;
+    }
+}

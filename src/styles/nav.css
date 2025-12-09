@@ -12,6 +12,6 @@ nav {
 
 .user-avatar {
     width: 34px;
-    object-fit: contain;
-    border-radius: 50%;
+    height: 34px;
+    border-radius: 100%;
 }

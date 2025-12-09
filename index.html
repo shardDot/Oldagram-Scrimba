@@ -2,7 +2,10 @@
 <html>
 <head>
     <title>Oldagram</title>
-       <link rel="stylesheet" href="src/styles/index.css">
+    <link rel="stylesheet" href="src/styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -14,7 +17,27 @@
 
     <div class="container">
         <section class="feed">
+            <div class="card">
+                <div class="card-nav">
+                    <img src="src/images/avatar-vangogh.jpg" alt="avatar-vangogh" class="user-avatar">
+                    <div class="post-info">
+                        <p id="poster-name" class="bold">Vincent</p>
+                        <p id="poster-location">Zudert, Netherlands</p>
+                    </div>
+                </div>
 
+                <img id="post" src="src/images/post-vangogh.jpg" alt="">
+
+                <div class="card-footer">
+                    <div class="interact">
+                        <img src="src/images/icon-heart.png" alt="">
+                        <img src="src/images/icon-comment.png" alt="">
+                        <img src="src/images/icon-dm.png" alt="">
+                    </div>
+
+                    <p id="likes-amount" class="bold">21000 likes</p>
+                </div>
+            </div>
         </section>
     </div>
 </body>
