@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    height: 67px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #C6C6C6;
+}
+
+#logo {
+    width: 127px;
+}
+
+.user-avatar {
+    width: 34px;
+    object-fit: contain;
+    border-radius: 50%;
+}
