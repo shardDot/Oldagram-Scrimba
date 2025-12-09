@@ -29,4 +29,8 @@
         height: 32px;;
         margin-top: 20px;
     }
+
+    #likes-amount {
+        margin-top: 12px;
+    }
 }
